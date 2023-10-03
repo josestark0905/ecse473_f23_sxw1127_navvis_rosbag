@@ -8,7 +8,7 @@
 ## Launch the robot model in map
 1. Download both this package and the package of lab2 into the ros workspace, such as `catkin_ws/src`
 2. Download Map Server into the ros workspace
-3. Download Map bags to <path to bag data>
+3. Download Map bags to `<path to bag data>`
 4. Build all the package with `catkin_make` in the root directory of ros workspace
 5. Source all the packages with `souce devel/setup.bash`
 6. Set the argument `bag_path:=<path to bag data>` to the define the path of the bag data
