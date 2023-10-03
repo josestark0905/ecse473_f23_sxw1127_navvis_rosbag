@@ -11,9 +11,7 @@
 3. Download the map data into a folder named `bags` under this directory
 4. Build all the package with `catkin_make` in the root directory of ros workspace
 5. Source all the packages with `souce devel/setup.bash`
-6. Change the `bag_path` in `launch/ros_bag.launch` to the path to the map data
+6. Set the argument `bag_path:=<path to bag data>` to the define the path of the bag data
 7. Launch the model with `roslaunch navvis_rosbag ros_bag.launch`
 ## Launch the robot model as Lab 2
 `roslaunch navvis_rosbag update_display.launch use_xacro:=true`
-
-
